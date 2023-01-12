@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import pages.base.BasePage;
-import pages.qaScooter.Qa_scooter;
 
 public class Order extends BasePage {
 
@@ -21,6 +20,8 @@ public class Order extends BasePage {
     public By buttonFurther = By.xpath("//button[@class='Button_Button__ra12g Button_Middle__1CSJM']");
     public By orderProArendu = By.xpath("//button[@class='Button_Button__ra12g Button_Middle__1CSJM Button_Inverted__3IF-i']");
     public By buttonMetro = By.xpath("//div[@class='select-search__select']");
+
+    public String urlOrder = "https://qa-scooter.praktikum-services.ru/order";
 
     public Order waitElement(By sectionQ) {
         waitElementIsVisible(driver.findElement(sectionQ));

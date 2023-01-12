@@ -4,8 +4,6 @@ import common.CommonAction;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
-import pages.base.BasePage;
-import pages.qaScooter.Qa_scooter;
 
 
 public class BaseTest {
