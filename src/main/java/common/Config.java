@@ -1,0 +1,7 @@
+package common;
+
+public class Config {
+    public static final String PLATFORM_AND_BROWSER = "chrome";
+    public static final int IMPLICIT_WAIT = 3;
+    public static final int EXPLICIT_WAIT = 3;
+}
